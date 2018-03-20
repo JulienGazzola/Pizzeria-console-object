@@ -2,28 +2,29 @@ package fr.pizzeria.console;
 
 import fr.pizzeria.model.*;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.Scanner;
+import java.util.List;
 
 public class 	PizzeriaAdminConsoleApp {
 	
 	public static void main(String[] args) {
-		/*Pizza pépé = new Pizza(0, "PEP", "Pépérono", 12.50);*/
-		Pizza[] arrayPizza = {
-				new Pizza(0, "PEP", "Pépérono", 12.50),
-				new Pizza(1, "MAR", "Margherita", 14.00),
-				new Pizza(2, "REIN", "La Reine", 11.50),
-				new Pizza(3, "FRO", "La 4 fromages", 12.00),
-				new Pizza(4, "CAN", "La cannibale", 12.50),
-				new Pizza(5, "SAV", "La savoyarde", 13.00),
-				new Pizza(6, "ORI", "L'orientale", 13.50),
-				new Pizza(7, "IND", "L'indienne", 14.00)
-		};
 		
-		int tmp = 8;
+		List<Pizza> listePizza = new ArrayList<Pizza>();
+		listePizza.add(new Pizza(0, "PEP", "Pépérono", 12.50));
+		listePizza.add(new Pizza(1, "MAR", "Margherita", 14.00));
+		listePizza.add(new Pizza(2, "REIN", "La Reine", 11.50));
+		listePizza.add(new Pizza(3, "FRO", "La 4 fromages", 12.00));
+		listePizza.add(new Pizza(4, "CAN", "La cannibale", 12.50));
+		listePizza.add(new Pizza(5, "SAV", "La savoyarde", 13.00));
+		listePizza.add(new Pizza(6, "ORI", "L'orientale", 13.50));
+		listePizza.add(new Pizza(7, "IND", "L'indienne", 14.00));
+		
 		int nbChoice = 0;
 		while(nbChoice != 99){
-			System.out.println("** Pizzeria Administration\n"
+			System.out.println("** Pizzeria Administration **\n"
 					+ "1. Lister les pizza\n"
 					+ "2. Ajouter une nouvelle pizza\n"
 					+ "3. Mette à jour une pizza\n"
@@ -34,12 +35,12 @@ public class 	PizzeriaAdminConsoleApp {
 			switch (nbChoice){
 			case 1: 
 				System.out.println("Liste des pizzas");
-				for (int i = 0; i < arrayPizza.length ;i++){
-						if (arrayPizza[i] != null){
-						System.out.println(arrayPizza[i].getCode() + " -> " 
-					+ arrayPizza[i].getLibelle() + " ("
-					+ arrayPizza[i].getPrix() + " €)");
-					}
+				Iterator iterator = listePizza.iterator();
+				while (iterator.hasNext()){
+					Pizza pizza = (Pizza) iterator.next();
+					System.out.println(pizza.getCode() + " -> "
+							+ pizza.getLibelle() + " ("
+							+ pizza.getPrix() + " €)");
 				}
 				break;
 			case 2:
@@ -56,25 +57,18 @@ public class 	PizzeriaAdminConsoleApp {
 				Scanner newPrix = new Scanner(System.in);
 				double nbPrix = newPrix.nextDouble();
 				
-				if (tmp < arrayPizza.length){
-					arrayPizza[tmp] = new Pizza(nbCode, nbNom, nbPrix);
-				}
-				else {
-					arrayPizza = Arrays.copyOf(arrayPizza, arrayPizza.length + 1);
-					arrayPizza[tmp] = arrayPizza[tmp] = new Pizza(nbCode, nbNom, nbPrix);
-				}
-				tmp++;
-				
+				listePizza.add(new Pizza(nbCode, nbNom, nbPrix));
 				break;
 			case 3:
 				System.out.println("Mise à jour d'une pizza");
-				for (int i = 0; i < arrayPizza.length ;i++){
-						if (arrayPizza[i] != null){
-						System.out.println(arrayPizza[i].getCode() + " -> " 
-					+ arrayPizza[i].getLibelle() + " ("
-					+ arrayPizza[i].getPrix() + " €)");
-					}
+				iterator = listePizza.iterator();
+				while (iterator.hasNext()){
+					Pizza pizza = (Pizza) iterator.next();
+					System.out.println(pizza.getCode() + " -> "
+							+ pizza.getLibelle() + " ("
+							+ pizza.getPrix() + " €)");
 				}
+				
 				System.out.println("Veuillez saisir le code de la pizza à supprimer : ");
 				Scanner codePizza = new Scanner(System.in);
 				String nbCodePizza = codePizza.next();
@@ -91,34 +85,39 @@ public class 	PizzeriaAdminConsoleApp {
 				Scanner newPrixPizza = new Scanner(System.in);
 				double newPrixPizza2 = newPrixPizza.nextDouble();
 				
-				for (int i = 0; i < arrayPizza.length ;i++){
-					if (arrayPizza[i].getCode().contentEquals(nbCodePizza)){
-						arrayPizza[i].setCode(newCodePizza2);
-						arrayPizza[i].setLibelle(newNomPizza2);
-						arrayPizza[i].setPrix(newPrixPizza2);
+				iterator = listePizza.iterator();
+				while (iterator.hasNext()){
+					Pizza pizza = (Pizza) iterator.next();
+					if (pizza.getCode().contentEquals(nbCodePizza)){
+						pizza.setCode(newCodePizza2);
+						pizza.setLibelle(newNomPizza2);
+						pizza.setPrix(newPrixPizza2);
 					}
 				}
 				break;
 			case 4:
-				
 				System.out.println("Suppression d'une pizza");
-				for (int i = 0; i < arrayPizza.length ;i++){
-						if (arrayPizza[i] != null){
-						System.out.println(arrayPizza[i].getCode() + " -> " 
-					+ arrayPizza[i].getLibelle() + " ("
-					+ arrayPizza[i].getPrix() + " €)");
-					}
+				iterator = listePizza.iterator();
+				while (iterator.hasNext()){
+					Pizza pizza = (Pizza) iterator.next();
+					System.out.println(pizza.getCode() + " -> "
+							+ pizza.getLibelle() + " ("
+							+ pizza.getPrix() + " €)");
 				}
 				System.out.println("Veuillez choisir le code de la pizza à supprimer");
 				Scanner codePizzaSupp = new Scanner(System.in);
 				String nbCodePizzaSupp = codePizzaSupp.next();
 				
-				for (int i = 0; i < arrayPizza.length ;i++){
-					if (arrayPizza[i].getCode().contentEquals(nbCodePizzaSupp)){
-						arrayPizza[i] = null;
+				iterator = listePizza.iterator();
+				while (iterator.hasNext()){
+					Pizza pizza = (Pizza) iterator.next();
+					if (pizza.getCode().equals(nbCodePizzaSupp)){
+						listePizza.remove(pizza);
+						break;
 					}
 				}
 				break;
+				
 			case 99:
 				System.out.println("Aurevoir ☹");
 				break;
