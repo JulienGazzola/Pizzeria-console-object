@@ -35,9 +35,11 @@ public class 	PizzeriaAdminConsoleApp {
 			case 1: 
 				System.out.println("Liste des pizzas");
 				for (int i = 0; i < arrayPizza.length ;i++){
-					System.out.println(arrayPizza[i].getCode() + " -> " 
-				+ arrayPizza[i].getLibelle() + " ("
-				+ arrayPizza[i].getPrix() + " €)");
+						if (arrayPizza[i] != null){
+						System.out.println(arrayPizza[i].getCode() + " -> " 
+					+ arrayPizza[i].getLibelle() + " ("
+					+ arrayPizza[i].getPrix() + " €)");
+					}
 				}
 				break;
 			case 2:
@@ -67,9 +69,11 @@ public class 	PizzeriaAdminConsoleApp {
 			case 3:
 				System.out.println("Mise à jour d'une pizza");
 				for (int i = 0; i < arrayPizza.length ;i++){
-					System.out.println(arrayPizza[i].getCode() + " -> " 
-				+ arrayPizza[i].getLibelle() + " ("
-				+ arrayPizza[i].getPrix() + " €)");
+						if (arrayPizza[i] != null){
+						System.out.println(arrayPizza[i].getCode() + " -> " 
+					+ arrayPizza[i].getLibelle() + " ("
+					+ arrayPizza[i].getPrix() + " €)");
+					}
 				}
 				System.out.println("Veuillez saisir le code de la pizza à supprimer : ");
 				Scanner codePizza = new Scanner(System.in);
@@ -98,6 +102,22 @@ public class 	PizzeriaAdminConsoleApp {
 			case 4:
 				
 				System.out.println("Suppression d'une pizza");
+				for (int i = 0; i < arrayPizza.length ;i++){
+						if (arrayPizza[i] != null){
+						System.out.println(arrayPizza[i].getCode() + " -> " 
+					+ arrayPizza[i].getLibelle() + " ("
+					+ arrayPizza[i].getPrix() + " €)");
+					}
+				}
+				System.out.println("Veuillez choisir le code de la pizza à supprimer");
+				Scanner codePizzaSupp = new Scanner(System.in);
+				String nbCodePizzaSupp = codePizzaSupp.next();
+				
+				for (int i = 0; i < arrayPizza.length ;i++){
+					if (arrayPizza[i].getCode().contentEquals(nbCodePizzaSupp)){
+						arrayPizza[i] = null;
+					}
+				}
 				break;
 			case 99:
 				System.out.println("Aurevoir ☹");
