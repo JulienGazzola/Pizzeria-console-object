@@ -5,10 +5,12 @@ import java.util.List;
 import java.util.Scanner;
 
 import fr.pizzeria.dao.PizzaMemDao;
+import fr.pizzeria.exception.DeletePizzaException;
+import fr.pizzeria.exception.UpdatePizzaException;
 import fr.pizzeria.model.Pizza;
 
 public class SupprimerPizzaService extends MenuService{
-	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao){
+	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao) throws DeletePizzaException{
 		System.out.println("Suppression d'une pizza");
 		Iterator iterator = listePizza.iterator();
 		while (iterator.hasNext()){
@@ -18,8 +20,13 @@ public class SupprimerPizzaService extends MenuService{
 					+ pizza.getPrix() + " €)");
 		}
 		System.out.println("Veuillez choisir le code de la pizza à supprimer");
-		Scanner codePizzaSupp = new Scanner(System.in);
-		String nbCodePizzaSupp = codePizzaSupp.next();
-		dao.deletePizza(nbCodePizzaSupp);
+		Scanner info = new Scanner(System.in);
+		String nbCodePizza = info.next();
+		
+		if (dao.pizzaExists(nbCodePizza) != true){
+			throw new DeletePizzaException("Ce code n'existe pas");
+		}
+		
+		dao.deletePizza(nbCodePizza);
 	}
 }

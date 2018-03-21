@@ -2,6 +2,8 @@ package fr.pizzeria.console;
 
 import fr.pizzeria.model.*;
 import fr.pizzeria.dao.*;
+import fr.pizzeria.exception.StockageException;
+import fr.pizzeria.exception.UpdatePizzaException;
 import fr.pizzeria.service.*;
 
 import java.util.Scanner;
@@ -14,7 +16,7 @@ public class 	PizzeriaAdminConsoleApp{
 		int nbChoice = 0;
 		PizzaMemDao dao = new PizzaMemDao();
 		List<Pizza> listePizza = dao.findAllPizzas();
-		Scanner choice = new Scanner(System.in);
+		Scanner info = new Scanner(System.in);
 		
 		while(nbChoice != 99){
 			System.out.println("** Pizzeria Administration **\n"
@@ -24,29 +26,18 @@ public class 	PizzeriaAdminConsoleApp{
 					+ "4. Supprimer une pizza\n"
 					+ "99. Sortir");
 			
-			nbChoice = choice.nextInt();
-			MenuService service = MenuServiceFactory.getInstance(nbChoice);
-			switch (nbChoice){
-			case 1:
-				service.executeUC(listePizza, dao);
-				break;
-			case 2:
-				service.executeUC(listePizza, dao);
-				break;
-			case 3:
-				service.executeUC(listePizza, dao);
-				break;
-			case 4:
-				service.executeUC(listePizza, dao);
-				break;
-				
-			case 99:
-				System.out.println("Aurevoir ☹");
-				break;
-			default:
-				continue;
+			nbChoice = info.nextInt();
+			if (nbChoice != 99){
+				MenuService service = MenuServiceFactory.getInstance(nbChoice);
+				try {
+					service.executeUC(listePizza, dao);
+				} catch (StockageException e1) {
+					System.out.println(e1.getMessage());
+				}
 			}
-			
+			else{
+				System.out.println("Aurevoir ☹");
+			}
 		}
 		
 	}
