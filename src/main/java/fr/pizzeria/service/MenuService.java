@@ -6,6 +6,5 @@ import fr.pizzeria.dao.PizzaMemDao;
 import fr.pizzeria.model.Pizza;
 
 public abstract class MenuService {
-	void executeUC(List<Pizza> listePizza, PizzaMemDao dao){}
-
+	public abstract void executeUC(List<Pizza> listePizza, PizzaMemDao dao);
 }

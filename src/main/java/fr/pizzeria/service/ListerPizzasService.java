@@ -6,7 +6,7 @@ import java.util.List;
 import fr.pizzeria.dao.PizzaMemDao;
 import fr.pizzeria.model.Pizza;
 
-public class ListerPizzasService {
+public class ListerPizzasService extends MenuService{
 	
 	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao){
 		System.out.println("Liste des pizzas");

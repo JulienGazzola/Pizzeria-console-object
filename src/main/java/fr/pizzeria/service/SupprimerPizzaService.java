@@ -7,7 +7,7 @@ import java.util.Scanner;
 import fr.pizzeria.dao.PizzaMemDao;
 import fr.pizzeria.model.Pizza;
 
-public class SupprimerPizzaService {
+public class SupprimerPizzaService extends MenuService{
 	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao){
 		System.out.println("Suppression d'une pizza");
 		Iterator iterator = listePizza.iterator();

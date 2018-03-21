@@ -6,7 +6,7 @@ import java.util.Scanner;
 import fr.pizzeria.model.Pizza;
 import fr.pizzeria.dao.*;
 
-public class AjouterPizzaService {
+public class AjouterPizzaService extends MenuService{
 	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao){
 		System.out.println("Ajout d'une nouvelle pizza\n"
 				+ "Veuillez saisir le code : ");

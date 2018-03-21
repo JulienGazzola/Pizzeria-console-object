@@ -7,7 +7,7 @@ import java.util.Scanner;
 import fr.pizzeria.dao.PizzaMemDao;
 import fr.pizzeria.model.Pizza;
 
-public class ModifierPizzaService {
+public class ModifierPizzaService extends MenuService{
 	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao){
 		System.out.println("Mise à jour d'une pizza");
 		Iterator iterator = listePizza.iterator();
