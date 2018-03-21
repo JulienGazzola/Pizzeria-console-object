@@ -30,7 +30,7 @@ public class 	PizzeriaAdminConsoleApp{
 			if (nbChoice != 99){
 				MenuService service = MenuServiceFactory.getInstance(nbChoice);
 				try {
-					service.executeUC(listePizza, dao);
+					service.executeUC(listePizza, dao, info);
 				} catch (StockageException e1) {
 					System.out.println(e1.getMessage());
 				}

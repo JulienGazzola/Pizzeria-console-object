@@ -5,20 +5,27 @@ public class		Pizza {
 	private String	code;
 	private String 	libelle;
 	private double	prix;
+	private CategoriePizza categoriePizza;
 	
-	public			Pizza(String code, String libelle, double prix){
+	public Pizza(String code, String libelle, double prix, CategoriePizza categoriePizza){
 		this.code = code;
 		this.libelle = libelle;
 		this.prix = prix;
+		this.categoriePizza = categoriePizza;
 	}
-	public			Pizza(int id, String code, String libelle, double prix){
+	public Pizza(int id, String code, String libelle, double prix, CategoriePizza categoriePizza){
 		this.id = id;
 		this.code = code;
 		this.libelle = libelle;
 		this.prix = prix;
+		this.categoriePizza = categoriePizza;
 	}
 	
 
+	@Override
+	public String toString() {
+		return "categoriePizza = " + categoriePizza.getCategorie();
+	}
 	
 	@Override
 	public int hashCode() {
@@ -77,5 +84,11 @@ public class		Pizza {
 	}
 	public void setPrix(double prix) {
 		this.prix = prix;
+	}
+	public CategoriePizza getCategoriePizza() {
+		return categoriePizza;
+	}
+	public void setCategoriePizza(CategoriePizza categoriePizza) {
+		this.categoriePizza = categoriePizza;
 	}
 }
