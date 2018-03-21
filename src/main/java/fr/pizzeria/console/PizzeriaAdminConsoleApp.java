@@ -14,10 +14,6 @@ public class 	PizzeriaAdminConsoleApp{
 		int nbChoice = 0;
 		PizzaMemDao dao = new PizzaMemDao();
 		List<Pizza> listePizza = dao.findAllPizzas();
-		MenuService lister = new ListerPizzasService();
-		MenuService ajout = new AjouterPizzaService();
-		MenuService modif = new ModifierPizzaService();
-		MenuService supp = new SupprimerPizzaService();
 		Scanner choice = new Scanner(System.in);
 		
 		while(nbChoice != 99){
@@ -29,18 +25,19 @@ public class 	PizzeriaAdminConsoleApp{
 					+ "99. Sortir");
 			
 			nbChoice = choice.nextInt();
+			MenuService service = MenuServiceFactory.getInstance(nbChoice);
 			switch (nbChoice){
 			case 1:
-				lister.executeUC(listePizza, dao);
+				service.executeUC(listePizza, dao);
 				break;
 			case 2:
-				ajout.executeUC(listePizza, dao);
+				service.executeUC(listePizza, dao);
 				break;
 			case 3:
-				modif.executeUC(listePizza, dao);
+				service.executeUC(listePizza, dao);
 				break;
 			case 4:
-				supp.executeUC(listePizza, dao);
+				service.executeUC(listePizza, dao);
 				break;
 				
 			case 99:
