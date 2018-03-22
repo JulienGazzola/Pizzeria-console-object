@@ -14,12 +14,7 @@ public class ListerPizzasService extends MenuService{
 		Iterator iterator = listePizza.iterator();
 		while (iterator.hasNext()){
 			Pizza pizza = (Pizza) iterator.next();
-			System.out.println(pizza.getCode() + " -> "
-					+ pizza.getLibelle() + " ("
-					+ pizza.getPrix() + " €)"
-					+ " ("
-					+ pizza.toString()
-					+ ")");
+			System.out.println(pizza.toString());
 		}
 	}
 }

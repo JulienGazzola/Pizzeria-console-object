@@ -30,4 +30,8 @@ public enum CategoriePizza {
 		return false;
 	}
 	
+	public String toString(){
+		return categorie;
+	}
+	
 }
