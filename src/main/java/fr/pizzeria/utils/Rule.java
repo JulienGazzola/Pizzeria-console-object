@@ -5,5 +5,6 @@ import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Rule {
-	double prixMin() default 0;
+	double 	prixMin() default 0;
+	String	categorie() default "";
 }

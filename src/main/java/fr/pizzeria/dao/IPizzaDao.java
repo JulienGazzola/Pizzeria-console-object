@@ -4,7 +4,7 @@ import java.util.List;
 
 import fr.pizzeria.model.Pizza;
 
-public interface PizzaDao {
+public interface IPizzaDao {
 	List<Pizza> findAllPizzas();
 	void saveNewPizza(Pizza pizza);
 	void updatePizza(String codePizza, Pizza pizza);

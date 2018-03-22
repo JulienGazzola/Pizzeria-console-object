@@ -45,7 +45,7 @@ public class ModifierPizzaService extends MenuService{
 		try {
 			modifPizza.rule();
 		} catch (StockageException e) {
-			throw new UpdatePizzaException("Un prix ne peut pas etre inférieur ou égale à 0€");
+			System.out.println(e.getMessage());
 		}
 		
 		

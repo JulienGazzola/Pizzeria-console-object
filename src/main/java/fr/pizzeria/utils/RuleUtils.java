@@ -3,6 +3,7 @@ package fr.pizzeria.utils;
 import java.lang.reflect.Field;
 
 import fr.pizzeria.exception.StockageException;
+import fr.pizzeria.model.CategoriePizza;
 import fr.pizzeria.model.Pizza;
 
 public class RuleUtils {
@@ -29,8 +30,13 @@ public class RuleUtils {
 					if (value instanceof Double) {
 						double prix = (Double)value;
 						if (prix <= prixMin) {
-							throw new StockageException("Error");
+							throw new StockageException("Error : Le prix doit être positif");
 						}
+					}
+					
+					String categorie = annotation.categorie();
+					if (!CategoriePizza.exists(categorie)){
+						throw new StockageException("Error");
 					}
 
 				} catch (IllegalArgumentException e) {

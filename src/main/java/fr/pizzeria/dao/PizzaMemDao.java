@@ -7,7 +7,7 @@ import java.util.List;
 import fr.pizzeria.model.Pizza;
 import fr.pizzeria.model.*;
 
-public class PizzaMemDao implements PizzaDao{
+public class PizzaMemDao implements IPizzaDao{
 	static List<Pizza> listePizza = new ArrayList<Pizza>();
 	static {
 		listePizza.add(new Pizza(0, "PEP", "Pépéroni", 12.50, CategoriePizza.VIANDE));
