@@ -25,14 +25,18 @@ public class AjouterPizzaService extends MenuService{
 		}
 		CategoriePizza categorie = CategoriePizza.valueOf(categoriePizza);
 		
-		if (nbPrix < 0){
-			throw new SavePizzaException("Un prix ne peut pas etre inférieur ou égale à 0€");
-		}
+		
 		if (dao.pizzaExists(nbCode) == true){
 			throw new SavePizzaException("La pizza existe déjà");
 		}
 		
 		Pizza newPizza = new Pizza(nbCode, nbNom, nbPrix, categorie);
+		try {
+			newPizza.rule();
+		} catch (StockageException e) {
+			throw new SavePizzaException("Un prix ne peut pas etre inférieur ou égale à 0€");
+		}
+		
 		dao.saveNewPizza(newPizza);
 	}
 }

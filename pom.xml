@@ -10,4 +10,14 @@
 	    <junit.version>3.8.1</junit.version>
 	    <mode>DEV</mode>
   	</properties>
+  	
+  	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+  	<dependencies>
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.6</version>
+		</dependency>
+  	</dependencies>
+  	
 </project>

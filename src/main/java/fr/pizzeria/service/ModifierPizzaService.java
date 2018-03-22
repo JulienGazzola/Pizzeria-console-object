@@ -40,10 +40,14 @@ public class ModifierPizzaService extends MenuService{
 		if (dao.pizzaExists(nbCodePizza) != true){
 			throw new UpdatePizzaException("Ce code n'existe pas");
 		}
-		if (newPrixPizza < 0){
+		Pizza modifPizza = new Pizza(newCodePizza, newNomPizza, newPrixPizza, categorie);
+		
+		try {
+			modifPizza.rule();
+		} catch (StockageException e) {
 			throw new UpdatePizzaException("Un prix ne peut pas etre inférieur ou égale à 0€");
 		}
-		Pizza modifPizza = new Pizza(newCodePizza, newNomPizza, newPrixPizza, categorie);
+		
 		
 		dao.updatePizza(nbCodePizza, modifPizza);
 		

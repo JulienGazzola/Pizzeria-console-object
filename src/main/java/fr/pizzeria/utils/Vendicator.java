@@ -1,5 +1,5 @@
 package fr.pizzeria.utils;
 
-public class Vendicator {
+public class Vendicator{
 
 }

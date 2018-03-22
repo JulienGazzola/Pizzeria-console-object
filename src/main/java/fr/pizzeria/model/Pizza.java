@@ -1,5 +1,8 @@
 package fr.pizzeria.model;
 
+import fr.pizzeria.exception.StockageException;
+import fr.pizzeria.utils.Rule;
+import fr.pizzeria.utils.RuleUtils;
 import fr.pizzeria.utils.StringUtils;
 import fr.pizzeria.utils.ToString;
 
@@ -12,6 +15,7 @@ public class		Pizza {
 	@ToString()
 	private String 	libelle;
 	
+	@Rule()
 	@ToString(afterPrix = "€) ", beforePrix = "(")
 	private double	prix;
 	
@@ -34,10 +38,17 @@ public class		Pizza {
 	
 	
 	public String toString() {
-		Class<Pizza> cl = Pizza.class;
 		StringUtils utils = new StringUtils();
 		String chaine = utils.utils(this);
 		return chaine;
+	}
+	
+	public boolean rule() throws StockageException{
+		RuleUtils utils = new RuleUtils();
+		if (utils.ruleUtils(this)){
+			return true;
+		}
+		return false;
 	}
 	
 	@Override
