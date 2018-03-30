@@ -1,0 +1,303 @@
+11:30:59.291 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				null
+11:31:02.849 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+14:17:40.107 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				null
+14:25:59.879 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+14:28:41.806 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+14:30:31.446 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+14:31:10.898 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:34:59.516 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:35:01.763 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+14:35:05.545 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:35:06.652 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:35:29.189 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:35:31.178 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:35:43.203 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+14:35:46.499 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+14:35:50.515 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+14:35:58.068 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = La pizza existe déjà
+14:35:58.070 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:35:59.915 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+14:36:05.355 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+14:36:10.403 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+14:36:30.396 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:36:33.771 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+14:36:38.863 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:36:40.050 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:36:41.043 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+14:43:53.002 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:43:54.555 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+14:43:54.568 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (12.5 €) : Viande 
+14:43:54.568 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+14:43:54.568 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (11.5 €) : Viande 
+14:43:54.568 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				FRO -> La 4 fromages (12.0 €) : SansViande 
+14:43:54.568 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				CAN -> La cannibale (12.5 €) : Viande 
+14:43:54.569 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				SAV -> La savoyarde (13.0 €) : Viande 
+14:43:54.569 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				ORI -> L'orientale (13.5 €) : Viande 
+14:43:54.569 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				IND -> L'indienne (14.0 €) : Viande 
+14:43:54.569 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:44:00.993 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+14:44:05.937 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+14:44:07.048 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+14:44:08.217 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+14:44:11.906 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+14:44:11.908 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:44:13.552 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+14:44:13.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (12.5 €) : Viande 
+14:44:13.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+14:44:13.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (11.5 €) : Viande 
+14:44:13.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				FRO -> La 4 fromages (12.0 €) : SansViande 
+14:44:13.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				CAN -> La cannibale (12.5 €) : Viande 
+14:44:13.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				SAV -> La savoyarde (13.0 €) : Viande 
+14:44:13.554 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				ORI -> L'orientale (13.5 €) : Viande 
+14:44:13.554 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				IND -> L'indienne (14.0 €) : Viande 
+14:44:13.554 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				TOTO -> toto (10.0 €) : Viande 
+14:44:13.554 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:44:18.505 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+14:44:18.505 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (12.5 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (11.5 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				FRO -> La 4 fromages (12.0 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				CAN -> La cannibale (12.5 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				SAV -> La savoyarde (13.0 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				ORI -> L'orientale (13.5 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				IND -> L'indienne (14.0 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				TOTO -> toto (10.0 €)
+14:44:18.506 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à supprimer : 
+14:44:21.577 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau code : 
+14:44:59.736 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau nom (sans espace) : 
+14:45:03.216 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau prix : 
+14:45:04.785 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de pizza : 
+14:45:06.360 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Error
+14:45:06.360 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:45:08.337 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+14:45:08.337 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				TUTU -> tutu (10.0 €) : Viande 
+14:45:08.337 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+14:45:08.337 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (11.5 €) : Viande 
+14:45:08.337 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				FRO -> La 4 fromages (12.0 €) : SansViande 
+14:45:08.337 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				CAN -> La cannibale (12.5 €) : Viande 
+14:45:08.338 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				SAV -> La savoyarde (13.0 €) : Viande 
+14:45:08.338 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				ORI -> L'orientale (13.5 €) : Viande 
+14:45:08.338 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				IND -> L'indienne (14.0 €) : Viande 
+14:45:08.338 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				TOTO -> toto (10.0 €) : Viande 
+14:45:08.338 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:45:37.009 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Suppression d'une pizza
+14:45:37.009 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				TUTU -> tutu (10.0 €)
+14:45:37.009 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €)
+14:45:37.009 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (11.5 €)
+14:45:37.009 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				FRO -> La 4 fromages (12.0 €)
+14:45:37.010 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				CAN -> La cannibale (12.5 €)
+14:45:37.010 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				SAV -> La savoyarde (13.0 €)
+14:45:37.010 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				ORI -> L'orientale (13.5 €)
+14:45:37.010 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				IND -> L'indienne (14.0 €)
+14:45:37.010 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				TOTO -> toto (10.0 €)
+14:45:37.010 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez choisir le code de la pizza à supprimer
+14:45:43.136 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:45:45.552 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+14:45:45.552 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+14:45:45.552 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (11.5 €) : Viande 
+14:45:45.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				FRO -> La 4 fromages (12.0 €) : SansViande 
+14:45:45.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				CAN -> La cannibale (12.5 €) : Viande 
+14:45:45.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				SAV -> La savoyarde (13.0 €) : Viande 
+14:45:45.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				ORI -> L'orientale (13.5 €) : Viande 
+14:45:45.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				IND -> L'indienne (14.0 €) : Viande 
+14:45:45.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				TOTO -> toto (10.0 €) : Viande 
+14:45:45.553 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:45:49.433 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹

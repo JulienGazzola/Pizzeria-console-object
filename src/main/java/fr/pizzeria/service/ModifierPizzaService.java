@@ -5,30 +5,36 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import fr.pizzeria.console.PizzeriaAdminConsoleApp;
 import fr.pizzeria.dao.PizzaMemDao;
 import fr.pizzeria.model.CategoriePizza;
 import fr.pizzeria.model.Pizza;
 
 public class ModifierPizzaService extends MenuService{
+	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
+	
 	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao, Scanner info) throws UpdatePizzaException{
-		System.out.println("Mise à jour d'une pizza");
+		LOG.info("Mise à jour d'une pizza");
 		Iterator iterator = listePizza.iterator();
 		while (iterator.hasNext()){
 			Pizza pizza = (Pizza) iterator.next();
-			System.out.println(pizza.getCode() + " -> "
+			LOG.info(pizza.getCode() + " -> "
 					+ pizza.getLibelle() + " ("
 					+ pizza.getPrix() + " €)");
 		}
 		
-		System.out.println("Veuillez saisir le code de la pizza à supprimer : ");
+		LOG.info("Veuillez saisir le code de la pizza à modifier : ");
 		String nbCodePizza = info.next();
-		System.out.println("Veuillez saisir le nouveau code : ");
+		LOG.info("Veuillez saisir le nouveau code : ");
 		String newCodePizza = info.next();
-		System.out.println("Veuillez saisir le nouveau nom (sans espace) : ");
+		LOG.info("Veuillez saisir le nouveau nom (sans espace) : ");
 		String newNomPizza = info.next();
-		System.out.println("Veuillez saisir le nouveau prix : ");
+		LOG.info("Veuillez saisir le nouveau prix : ");
 		double newPrixPizza = info.nextDouble();
-		System.out.println("Veuillez saisir la catégorie de pizza : ");
+		LOG.info("Veuillez saisir la catégorie de pizza : ");
 		String newCategoriePizza = info.next();
 		
 		if (!CategoriePizza.exists(newCategoriePizza)){
@@ -45,7 +51,7 @@ public class ModifierPizzaService extends MenuService{
 		try {
 			modifPizza.rule();
 		} catch (StockageException e) {
-			System.out.println(e.getMessage());
+			LOG.info(e.getMessage());
 		}
 		
 		

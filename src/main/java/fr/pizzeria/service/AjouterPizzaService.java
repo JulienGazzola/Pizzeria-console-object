@@ -3,21 +3,27 @@ package fr.pizzeria.service;
 import java.util.List;
 import java.util.Scanner;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.pizzeria.model.CategoriePizza;
 import fr.pizzeria.model.Pizza;
+import fr.pizzeria.console.PizzeriaAdminConsoleApp;
 import fr.pizzeria.dao.*;
 import fr.pizzeria.exception.*;
+import fr.pizzeria.logger.AppService;
 
 public class AjouterPizzaService extends MenuService{
+	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
+	
 	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao, Scanner info) throws SavePizzaException{
-		System.out.println("Ajout d'une nouvelle pizza\n"
-				+ "Veuillez saisir le code : ");
+		LOG.info("Ajout d'une nouvelle pizza\n" + "Veuillez saisir le code : ");
 		String nbCode = info.next();
-		System.out.println("Veuillez saisir le nom (sans espace) : ");
+		LOG.info("Veuillez saisir le nom (sans espace) : ");
 		String nbNom = info.next();
-		System.out.println("Veuillez saisir le prix : ");
+		LOG.info("Veuillez saisir le prix : ");
 		double nbPrix = info.nextDouble();
-		System.out.println("Veuillez saisir la catégorie de la pizza");
+		LOG.info("Veuillez saisir la catégorie de la pizza");
 		String categoriePizza = info.next();
 		
 		if (!CategoriePizza.exists(categoriePizza)){
@@ -34,9 +40,8 @@ public class AjouterPizzaService extends MenuService{
 		try {
 			newPizza.rule();
 		} catch (StockageException e) {
-			System.out.println(e.getMessage());
+			new AppService().executer(e.getMessage());
 		}
-		
 		dao.saveNewPizza(newPizza);
 	}
 }
