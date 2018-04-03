@@ -16,13 +16,13 @@ import fr.pizzeria.logger.AppService;
 public class AjouterPizzaService extends MenuService{
 	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
 	
-	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao, Scanner info) throws SavePizzaException{
+	public void executeUC(List<Pizza> listePizza, IPizzaDao dao, Scanner info) throws SavePizzaException{
 		LOG.info("Ajout d'une nouvelle pizza\n" + "Veuillez saisir le code : ");
 		String nbCode = info.next();
 		LOG.info("Veuillez saisir le nom (sans espace) : ");
 		String nbNom = info.next();
 		LOG.info("Veuillez saisir le prix : ");
-		double nbPrix = info.nextDouble();
+		double nbPrix = Double.parseDouble(info.next());
 		LOG.info("Veuillez saisir la catégorie de la pizza");
 		String categoriePizza = info.next();
 		

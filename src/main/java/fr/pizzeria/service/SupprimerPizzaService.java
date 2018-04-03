@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.pizzeria.console.PizzeriaAdminConsoleApp;
+import fr.pizzeria.dao.IPizzaDao;
 import fr.pizzeria.dao.PizzaMemDao;
 import fr.pizzeria.exception.DeletePizzaException;
 import fr.pizzeria.exception.UpdatePizzaException;
@@ -16,7 +17,7 @@ import fr.pizzeria.model.Pizza;
 public class SupprimerPizzaService extends MenuService{
 	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
 	
-	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao, Scanner info) throws DeletePizzaException{
+	public void executeUC(List<Pizza> listePizza, IPizzaDao dao, Scanner info) throws DeletePizzaException{
 		LOG.info("Suppression d'une pizza");
 		Iterator iterator = listePizza.iterator();
 		while (iterator.hasNext()){

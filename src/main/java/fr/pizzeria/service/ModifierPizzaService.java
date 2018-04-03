@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.pizzeria.console.PizzeriaAdminConsoleApp;
+import fr.pizzeria.dao.IPizzaDao;
 import fr.pizzeria.dao.PizzaMemDao;
 import fr.pizzeria.model.CategoriePizza;
 import fr.pizzeria.model.Pizza;
@@ -16,7 +17,7 @@ import fr.pizzeria.model.Pizza;
 public class ModifierPizzaService extends MenuService{
 	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
 	
-	public void executeUC(List<Pizza> listePizza, PizzaMemDao dao, Scanner info) throws UpdatePizzaException{
+	public void executeUC(List<Pizza> listePizza, IPizzaDao pizzaDao, Scanner info) throws UpdatePizzaException{
 		LOG.info("Mise à jour d'une pizza");
 		Iterator iterator = listePizza.iterator();
 		while (iterator.hasNext()){
@@ -33,7 +34,7 @@ public class ModifierPizzaService extends MenuService{
 		LOG.info("Veuillez saisir le nouveau nom (sans espace) : ");
 		String newNomPizza = info.next();
 		LOG.info("Veuillez saisir le nouveau prix : ");
-		double newPrixPizza = info.nextDouble();
+		double newPrixPizza = Double.parseDouble(info.next());
 		LOG.info("Veuillez saisir la catégorie de pizza : ");
 		String newCategoriePizza = info.next();
 		
@@ -43,7 +44,7 @@ public class ModifierPizzaService extends MenuService{
 		
 		CategoriePizza categorie = CategoriePizza.valueOf(newCategoriePizza);
 		
-		if (dao.pizzaExists(nbCodePizza) != true){
+		if (pizzaDao.pizzaExists(nbCodePizza) != true){
 			throw new UpdatePizzaException("Ce code n'existe pas");
 		}
 		Pizza modifPizza = new Pizza(newCodePizza, newNomPizza, newPrixPizza, categorie);
@@ -55,7 +56,7 @@ public class ModifierPizzaService extends MenuService{
 		}
 		
 		
-		dao.updatePizza(nbCodePizza, modifPizza);
+		pizzaDao.updatePizza(nbCodePizza, modifPizza);
 		
 	}
 

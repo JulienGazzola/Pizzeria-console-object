@@ -301,3 +301,275 @@ Veuillez saisir le code :
 99. Sortir
 14:45:49.433 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
 				Aurevoir ☹
+17:16:06.511 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+17:38:10.505 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+17:42:25.386 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+17:43:25.841 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+17:43:36.313 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+17:43:38.682 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+17:43:42.490 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+17:43:48.486 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+09:52:49.380 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+10:07:56.723 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+10:08:13.919 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+10:08:15.902 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+10:08:17.254 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+10:08:21.876 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+10:35:10.502 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+10:35:10.505 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à modifier : 
+10:35:20.680 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau code : 
+10:35:29.160 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau nom (sans espace) : 
+10:35:30.287 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau prix : 
+10:35:31.735 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de pizza : 
+10:35:37.122 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ce code n'existe pas
+10:38:03.802 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+10:38:03.805 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à modifier : 
+10:38:07.607 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau code : 
+10:38:16.551 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau nom (sans espace) : 
+10:38:18.703 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau prix : 
+10:38:20.114 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de pizza : 
+10:43:10.309 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+10:43:10.312 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à modifier : 
+10:43:36.966 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+10:44:26.311 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+10:44:29.396 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:02:23.716 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:02:23.720 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:02:23.720 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:03:31.680 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:03:31.685 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:03:31.685 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:03:31.686 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:03:31.703 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:05:56.253 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:05:56.257 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:05:56.258 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:05:56.259 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:05:56.267 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:06:27.438 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:06:27.441 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:06:27.442 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:06:27.442 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:06:27.449 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:06:46.672 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:06:46.676 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:06:46.676 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:06:46.676 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:06:46.682 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:08:17.674 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+11:08:17.678 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à modifier : 
+11:08:17.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau code : 
+11:08:17.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau nom (sans espace) : 
+11:08:17.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau prix : 
+11:09:33.405 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+11:09:33.408 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à modifier : 
+11:09:33.408 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau code : 
+11:09:33.408 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau nom (sans espace) : 
+11:09:33.409 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau prix : 
+11:10:54.274 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+11:10:54.276 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à modifier : 
+11:10:54.277 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau code : 
+11:10:54.277 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau nom (sans espace) : 
+11:10:54.277 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau prix : 
+11:10:54.277 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de pizza : 
+11:11:11.308 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Mise à jour d'une pizza
+11:11:11.311 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le code de la pizza à modifier : 
+11:11:11.312 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau code : 
+11:11:11.312 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau nom (sans espace) : 
+11:11:11.312 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nouveau prix : 
+11:11:11.313 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de pizza : 
+11:17:12.882 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Suppression d'une pizza
+11:17:12.885 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez choisir le code de la pizza à supprimer
+11:17:49.945 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Suppression d'une pizza
+11:17:49.947 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez choisir le code de la pizza à supprimer
+11:18:51.361 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:18:51.364 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:18:51.364 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:18:51.364 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:18:51.372 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:20:57.810 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:20:57.812 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:20:57.812 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:20:57.812 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:20:57.820 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:24:02.740 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:24:02.743 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:24:02.743 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:24:02.743 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:24:02.751 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:24:56.389 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:24:56.391 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:24:56.392 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:24:56.392 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:25:19.601 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:25:19.604 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:25:19.604 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:25:19.604 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:25:19.610 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:28:53.514 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:28:53.517 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:28:53.518 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:28:53.518 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:28:53.526 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:28:53.530 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:28:53.531 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:28:53.531 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:28:53.531 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:28:53.532 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:30:12.192 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:30:12.194 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:30:12.194 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:30:12.195 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:30:12.203 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+11:30:12.207 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Ajout d'une nouvelle pizza
+Veuillez saisir le code : 
+11:30:12.207 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le nom (sans espace) : 
+11:30:12.207 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir le prix : 
+11:30:12.207 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Veuillez saisir la catégorie de la pizza
+11:30:12.207 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
