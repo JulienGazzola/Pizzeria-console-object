@@ -19,30 +19,26 @@ public class PizzeriaAdminConsoleApp {
 	public static void main(String[] args) {
 
 		int nbChoice = 0;
-		PizzaMemDao dao = new PizzaMemDao();
-		List<Pizza> listePizza = dao.findAllPizzas();
+		IPizzaDao dao = new PizzaDataBase();
 		Scanner info = new Scanner(System.in);
 
 		while (nbChoice != 99) {
 			LOG.info("** Pizzeria Administration **\n" + "1. Lister les pizza\n" + "2. Ajouter une nouvelle pizza\n"
-							+ "3. Mette à jour une pizza\n" + "4. Supprimer une pizza\n" + "99. Sortir");
+					+ "3. Mette à jour une pizza\n" + "4. Supprimer une pizza\n" + "99. Sortir");
 			nbChoice = info.nextInt();
 			if (nbChoice != 99) {
+				List<Pizza> listePizza = dao.findAllPizzas();
+				MenuService service = MenuServiceFactory.getInstance(nbChoice);
 				try {
-					MenuService service = MenuServiceFactory.getInstance(nbChoice);
-					try {
-						service.executeUC(listePizza, dao, info);
-					} catch (StockageException e1) {
-						new AppService().executer(e1.getMessage());
-					}
-				} catch (NullPointerException e) {
-					new AppService().executer(e.getMessage());
+					service.executeUC(listePizza, dao, info);
+				} catch (StockageException e1) {
+					e1.printStackTrace();
+					new AppService().executer(e1.getMessage());
 				}
 
 			} else {
 				LOG.info("Aurevoir ☹");
 			}
 		}
-
 	}
 }

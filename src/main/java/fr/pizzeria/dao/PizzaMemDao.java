@@ -8,6 +8,7 @@ import fr.pizzeria.model.Pizza;
 import fr.pizzeria.model.*;
 
 public class PizzaMemDao implements IPizzaDao {
+	
 	private List<Pizza> listePizza = new ArrayList<Pizza>();
 	
 	public PizzaMemDao(){

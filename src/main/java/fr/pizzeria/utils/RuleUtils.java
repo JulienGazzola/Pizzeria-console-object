@@ -36,7 +36,7 @@ public class RuleUtils {
 					
 					String categorie = annotation.categorie();
 					if (!CategoriePizza.exists(categorie)){
-						throw new StockageException("Error");
+						throw new StockageException("Error : Mauvaise catégorie");
 					}
 
 				} catch (IllegalArgumentException e) {

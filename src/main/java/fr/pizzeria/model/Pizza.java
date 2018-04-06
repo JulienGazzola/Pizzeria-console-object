@@ -1,7 +1,6 @@
 package fr.pizzeria.model;
 
 import fr.pizzeria.exception.StockageException;
-import fr.pizzeria.utils.Rule;
 import fr.pizzeria.utils.RuleUtils;
 import fr.pizzeria.utils.StringUtils;
 import fr.pizzeria.utils.ToString;
@@ -15,7 +14,6 @@ public class		Pizza {
 	@ToString()
 	private String 	libelle;
 	
-	@Rule()
 	@ToString(afterPrix = "€) ", beforePrix = "(")
 	private double	prix;
 	
@@ -35,7 +33,6 @@ public class		Pizza {
 		this.prix = prix;
 		this.categoriePizza = categoriePizza;
 	}
-	
 	
 	public String toString() {
 		StringUtils utils = new StringUtils();

@@ -573,3 +573,291 @@ Veuillez saisir le code :
 				Veuillez saisir la catégorie de la pizza
 11:30:12.207 [main] DEBUG fr.pizzeria.logger.AppService -
 				Traitement 1 : param = Error
+11:44:22.728 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+11:44:25.548 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (12.5 €) : Viande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (11.5 €) : Viande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				FRO -> La 4 fromages (12.0 €) : SansViande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				CAN -> La cannibale (12.5 €) : Viande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				SAV -> La savoyarde (13.0 €) : Viande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				ORI -> L'orientale (13.5 €) : Viande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				IND -> L'indienne (14.0 €) : Viande 
+11:44:25.679 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+11:44:29.192 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Aurevoir ☹
+11:44:57.671 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+11:45:45.771 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+11:49:58.368 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+11:51:03.062 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+11:52:48.841 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+11:52:57.895 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+11:56:33.723 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+12:01:16.089 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+12:01:56.493 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+12:06:03.063 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+12:07:20.065 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+12:09:32.243 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Could not connect: Access denied for user ''@'localhost' to database 'pizzadb'
+12:10:44.766 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = No such column :NAME
+12:10:44.782 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:10:49.802 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+12:10:49.802 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = null
+12:10:49.802 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:13:11.693 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = No such column :NAME
+12:13:11.774 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:13:16.294 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+12:13:16.309 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = null
+12:13:16.309 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:13:50.327 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = No such column :NAME
+12:13:50.343 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:14:04.113 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = No such column :NAME
+12:14:04.128 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:14:53.930 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = No such column :NAME
+12:14:53.945 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:15:18.763 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = No such column :NAME
+12:15:18.763 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:16:22.848 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = No such column :NAME
+12:16:22.867 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:25:31.346 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:25:34.856 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+12:25:34.861 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (13.0 €) : Viande 
+12:25:34.861 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+12:25:34.861 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (12.0 €) : Viande 
+12:25:34.861 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:26:11.024 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:26:16.101 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+12:26:16.114 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (13.0 €) : Viande 
+12:26:16.114 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+12:26:16.114 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (12.0 €) : Viande 
+12:26:16.114 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:26:56.134 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:27:57.243 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:30:20.240 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:30:50.676 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+12:30:50.703 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (13.0 €) : Viande 
+12:30:50.703 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+12:30:50.703 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (12.0 €) : Viande 
+12:31:00.518 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+12:31:10.493 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				Liste des pizzas
+12:31:10.495 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				PEP -> Pépéroni (13.0 €) : Viande 
+12:31:10.495 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				MAR -> Margherita (14.0 €) : SansViande 
+12:31:10.495 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				REIN -> La Reine (12.0 €) : Viande 
+14:27:36.588 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+14:27:53.817 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
+				** Pizzeria Administration **
+1. Lister les pizza
+2. Ajouter une nouvelle pizza
+3. Mette à jour une pizza
+4. Supprimer une pizza
+99. Sortir
+14:40:00.364 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+14:40:00.370 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Duplicate entry '0' for key 'PRIMARY'
+14:56:25.370 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:17:52.155 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:23:55.914 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:25:35.802 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:29:30.869 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:38:18.162 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:38:18.279 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Duplicate entry 'TOTO' for key 'CODE'
+15:38:45.937 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:44:51.802 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:44:51.816 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Column count doesn't match value count at row 1
+15:48:39.026 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:54:35.171 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:55:14.451 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+15:56:41.171 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error
+16:20:26.444 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Error catégorie
+16:21:31.713 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Mauvais nom de catégorie : VIANDE | POISSON | SANS_VIANDE
+16:46:20.603 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Ce code n'existe pas
+16:48:31.874 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Ce code n'existe pas
+16:49:15.434 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = Ce code n'existe pas
+17:12:38.305 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = La pizza existe déjà
+17:15:35.423 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = La pizza existe déjà
+17:18:10.659 [main] DEBUG fr.pizzeria.logger.AppService -
+				Traitement 1 : param = La pizza existe déjà
