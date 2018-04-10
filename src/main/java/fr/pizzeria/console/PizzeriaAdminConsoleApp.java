@@ -1,25 +1,36 @@
 package fr.pizzeria.console;
 
-import fr.pizzeria.model.*;
-import fr.pizzeria.dao.*;
-import fr.pizzeria.exception.StockageException;
-import fr.pizzeria.exception.UpdatePizzaException;
-import fr.pizzeria.service.*;
+import java.util.List;
+import java.util.Scanner;
 
-import fr.pizzeria.logger.AppService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Scanner;
-import java.util.List;
+import fr.pizzeria.dao.IPizzaDao;
+import fr.pizzeria.dao.PizzaDataBase;
+import fr.pizzeria.dao.PizzaJpaBase;
+import fr.pizzeria.exception.StockageException;
+import fr.pizzeria.logger.AppService;
+import fr.pizzeria.model.Pizza;
+import fr.pizzeria.service.MenuService;
+import fr.pizzeria.service.MenuServiceFactory;
 
+/** Représente l'executable de l'application */
 public class PizzeriaAdminConsoleApp {
+	
+	/** Logger pour faire les affichages */
 	private static final Logger LOG = LoggerFactory.getLogger(PizzeriaAdminConsoleApp.class);
 
+	/** Main méthode
+	 * 
+	 * @param args
+	 * Lance le scanner
+	 * Quitte l'application
+	 */
 	public static void main(String[] args) {
 
 		int nbChoice = 0;
-		IPizzaDao dao = new PizzaDataBase();
+		IPizzaDao dao = new PizzaJpaBase();
 		Scanner info = new Scanner(System.in);
 
 		while (nbChoice != 99) {
